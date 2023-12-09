@@ -78,9 +78,9 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 20px;
-    /* Ajustar el posicionamiento del botón para que esté en la parte inferior */
+  
 
-    z-index: 1; /* Asegura que el botón esté sobre el contenido */
+    z-index: 1; 
   }
 
   
