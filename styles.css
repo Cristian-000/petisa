@@ -9,6 +9,8 @@ body {
     background-color: #f5f5f5; /* Color de fondo */
     overflow: hidden; /* Evita el desbordamiento del fondo animado */
     animation: cambioColorFondo 10s infinite alternate; /* Nueva animación de fondo */
+      /* Estilo adicional para asegurar que el botón sea siempre visible */
+
   }
   
   .titulo {
@@ -44,17 +46,20 @@ body {
   }
   
   .btn {
-    background-color: #f96363; /* Verde o tu color preferido */
-    color: #fff; /* Color del texto del botón */
+    background-color: #f96363;
+    color: #fff;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-bottom: 20px; /* Espaciado inferior */
+    margin-bottom: 20px;
+    /* Ajustar el posicionamiento del botón para que esté en la parte inferior */
+
+    bottom: 20px;
+    z-index: 1; /* Asegura que el botón esté sobre el contenido */
   }
-  
 
   
   @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
