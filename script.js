@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const tarjeta = document.getElementById('tarjeta');
     const cumplidoElement = document.getElementById('cumplido');
-    const btnCargarFrase = document.getElementById('cargarFrase');
   
     let cumplidos = []; // Array para almacenar los cumplidos
   
@@ -22,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
       cumplidoElement.textContent = cumplidos[cumplidoIndex];
     }
   
-    // Cargar frase al hacer clic en el botón
-    btnCargarFrase.addEventListener('click', function () {
+    // Cargar cumplidos al hacer clic en la tarjeta
+    tarjeta.addEventListener('click', function () {
       mostrarCumplidoAleatorio();
     });
   
